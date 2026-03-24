@@ -22,7 +22,7 @@ This repository contains Playwright automation for the RealOne agent signup work
 
 ```bash
 # clone from your project remote (example)
-git clone https://github.com/OneRealWebAutomation.git
+git clone https://github.com/sunilkanaujia/OneRealWebAutomation.git
 cd OneRealWebAutomation
 ```
 
