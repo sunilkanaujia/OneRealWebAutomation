@@ -1,0 +1,6 @@
+firstName,lastName,username,email,password,testCase
+John,Doe,johndoe123,john.doe@example.com,Password@123,Valid signup with correct credentials
+Jane,Smith,janesmith456,jane.smith@example.com,SecurePass@456,Valid signup second user
+Robert,Johnson,rjohnson789,robert.johnson@example.com,TestPass@789,Valid signup third user
+Emily,Williams,ewilliams101,emily.williams@example.com,Emily@Pass101,Valid signup fourth user
+Michael,Brown,mbrown202,michael.brown@example.com,Michael@202,Valid signup fifth user

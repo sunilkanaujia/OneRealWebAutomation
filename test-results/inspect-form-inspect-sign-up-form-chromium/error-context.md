@@ -1,0 +1,71 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - img "real-logo" [ref=e3]
+  - generic [ref=e4]:
+    - generic [ref=e7]:
+      - paragraph [ref=e9]: Create Account
+      - generic [ref=e10]:
+        - generic [ref=e11]:
+          - generic [ref=e13]:
+            - generic [ref=e14]: First Name *
+            - textbox "First Name" [ref=e16] [cursor=pointer]:
+              - /placeholder: Enter your first name
+          - generic [ref=e18]:
+            - generic [ref=e19]: Last Name *
+            - textbox "Last Name" [ref=e21] [cursor=pointer]:
+              - /placeholder: Enter your last name
+          - generic [ref=e23]:
+            - generic [ref=e24]: Username *
+            - textbox "Username" [ref=e26] [cursor=pointer]:
+              - /placeholder: eg. johndoe9
+          - generic [ref=e28]:
+            - generic [ref=e29]: Email *
+            - generic [ref=e30]:
+              - img [ref=e33]
+              - textbox "Email" [ref=e35] [cursor=pointer]:
+                - /placeholder: johndoe@example.com
+          - generic [ref=e37]:
+            - generic [ref=e38]: Password *
+            - generic [ref=e39]:
+              - textbox "Password" [ref=e40] [cursor=pointer]:
+                - /placeholder: Choose password
+              - img [ref=e42] [cursor=pointer]
+          - generic [ref=e45]:
+            - generic [ref=e46]: Password Confirmation *
+            - generic [ref=e47]:
+              - textbox "Password Confirmation" [ref=e48] [cursor=pointer]:
+                - /placeholder: Confirm password
+              - img [ref=e50] [cursor=pointer]
+        - generic [ref=e52]:
+          - generic [ref=e54]:
+            - checkbox "By checking the box, I agree to the Privacy Policy, Terms of Use and Electronic Disclosure and Consent." [ref=e56] [cursor=pointer]
+            - paragraph [ref=e60]:
+              - text: By checking the box, I agree to the
+              - link "Privacy Policy" [ref=e61] [cursor=pointer]:
+                - /url: https://www.onereal.com/pages/privacy-policy
+              - text: ","
+              - link "Terms of Use" [ref=e62] [cursor=pointer]:
+                - /url: https://www.onereal.com/pages/terms-of-use
+              - text: and
+              - link "Electronic Disclosure" [ref=e63] [cursor=pointer]:
+                - /url: https://onereal.com/pages/electronic-disclosure
+              - text: and
+              - link "Consent" [ref=e64] [cursor=pointer]:
+                - /url: https://onereal.com/pages/data-policy
+              - text: .
+          - generic [ref=e66]:
+            - checkbox "By checking the applicable box below, I consent by electronic signature to receive calls and text messages from Real Broker, LLC and its affiliated entities, if the applicable box is checked, made by any means or technology, for informational, marketing, or any other purposes at the phone number I provided above. I understand that my consent to such calls and text messages is not required to purchase products from or use the services of any of the entities listed below." [ref=e68] [cursor=pointer]
+            - paragraph [ref=e72]: By checking the applicable box below, I consent by electronic signature to receive calls and text messages from Real Broker, LLC and its affiliated entities, if the applicable box is checked, made by any means or technology, for informational, marketing, or any other purposes at the phone number I provided above. I understand that my consent to such calls and text messages is not required to purchase products from or use the services of any of the entities listed below.
+        - generic [ref=e73]:
+          - button "Create Account" [ref=e74] [cursor=pointer]:
+            - generic [ref=e75]:
+              - generic [ref=e77]: Create Account
+              - img [ref=e79]
+          - button "Already have an account? Log In" [ref=e81] [cursor=pointer]:
+            - generic [ref=e82]:
+              - generic [ref=e84]: Already have an account? Log In
+              - img [ref=e86]
+    - img "Join the Real Estate Brokerage of the Future" [ref=e90]
+```
